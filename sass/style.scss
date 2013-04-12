@@ -5,6 +5,8 @@ $monoFontFamily:        "Courier New", monospace;
 $baseFontFamily:        $serifFontFamily;
 $altFontFamily:         $sansFontFamily;
 
+$linkColor: #333;
+
 @import "../components/bootstrap-sass/lib/variables";
 
 @import "../components/bootstrap-sass/lib/mixins";
@@ -55,8 +57,19 @@ $altFontFamily:         $sansFontFamily;
     text-align: left;
 }
 
-a:hover {
-    text-decoration: none;
+a {
+    text-decoration: underline;
+
+    &.no-underline {
+        text-decoration: none;
+    }
+    &:hover {
+
+    }
+}
+
+.underlined {
+    text-decoration: underline;
 }
 
 @media (max-width: 979px) {
@@ -71,6 +84,34 @@ a:hover {
     .hero-unit {
         h1 {
             font-size: 45px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-unit {
+        padding-right: 30px;
+
+        h1 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 21px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .hero-unit {
+        padding: 20px;
+        height: 210px;
+        background-position: left 85px;
+
+        h1 {
+            font-size: 26px;
+        }
+        h2 {
+            margin-top: 0;
         }
     }
 }

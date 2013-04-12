@@ -1,0 +1,9 @@
+{
+    "name": "Resume of Richard Hinkamp",
+    "version": "1.0.0-dev",
+    "main": ["./index.html"],
+    "dependencies": {
+        "jquery": "1.9.*",
+        "bootstrap-sass": "2.*"
+    }
+}

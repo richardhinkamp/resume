@@ -3572,7 +3572,7 @@ a {
       font-size: 28px; }
     .hero-unit h2 {
       font-size: 21px; } }
-@media (max-width: 400px) {
+@media (max-width: 350px) {
   .hero-unit {
     padding: 20px;
     height: 210px;

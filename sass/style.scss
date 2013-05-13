@@ -82,13 +82,18 @@ a {
 
 @media (max-width: 767px) {
     .hero-unit {
+        padding-right: 40px;
+
         h1 {
-            font-size: 45px;
+            font-size: 35px;
+        }
+        h2 {
+            font-size: 28px;
         }
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .hero-unit {
         padding-right: 30px;
 

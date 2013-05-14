@@ -72,6 +72,11 @@ a {
     text-decoration: underline;
 }
 
+.block {
+    page-break-after: auto;
+    page-break-inside: avoid;
+}
+
 @media (max-width: 979px) {
     .span4 {
         h2 {
@@ -118,5 +123,30 @@ a {
         h2 {
             margin-top: 0;
         }
+    }
+}
+
+@media print {
+    html {
+        padding-top: 1em;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .hero-unit {
+        padding: 0;
+        background-image: none;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .row-fluid [class*="span"] {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        @include box-sizing(border-box);
     }
 }

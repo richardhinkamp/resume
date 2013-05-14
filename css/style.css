@@ -3559,6 +3559,10 @@ a {
 .underlined {
   text-decoration: underline; }
 
+.block {
+  page-break-after: auto;
+  page-break-inside: avoid; }
+
 @media (max-width: 979px) {
   .span4 h2 {
     font-size: 25px; } }
@@ -3585,3 +3589,24 @@ a {
       font-size: 26px; }
     .hero-unit h2 {
       margin-top: 0; } }
+@media print {
+  html {
+    padding-top: 1em; }
+
+  .navbar {
+    display: none; }
+
+  .hero-unit {
+    padding: 0;
+    background-image: none;
+    background-color: transparent;
+    text-align: center; }
+
+  .row-fluid [class*="span"] {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; } }

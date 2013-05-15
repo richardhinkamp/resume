@@ -3580,7 +3580,7 @@ a {
     .hero-unit h1 {
       font-size: 25px; }
     .hero-unit h2 {
-      font-size: 21px; } }
+      font-size: 20px; } }
 @media (max-width: 450px) {
   .hero-unit {
     padding: 20px;
@@ -3591,17 +3591,16 @@ a {
     .hero-unit h2 {
       margin-top: 0; } }
 @media print {
-  html {
-    padding-top: 1em; }
-
   .navbar {
     display: none; }
 
   .hero-unit {
     padding: 0;
+    margin: 0;
     background-image: none;
     background-color: transparent;
-    text-align: center; }
+    text-align: center;
+    height: auto; }
 
   .row-fluid [class*="span"] {
     float: none;
@@ -3610,4 +3609,13 @@ a {
     margin-left: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box; } }
+    box-sizing: border-box; }
+
+  .span4 h2 {
+    margin-top: 0.4em;
+    margin-bottom: 0.1em;
+    font-size: 20px; }
+  .span4 dl {
+    margin: 0; } }
+@page {
+  margin: 2cm 1.5cm; }

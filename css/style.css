@@ -3542,7 +3542,8 @@ input[type="submit"].btn {
   background-image: url("../img/foto-zw.png");
   background-repeat: no-repeat;
   background-position: left 50px;
-  padding-left: 150px; }
+  padding-left: 150px;
+  height: 130px; }
   .hero-unit h1 {
     font-size: 55px; }
 
@@ -3577,10 +3578,10 @@ a {
   .hero-unit {
     padding-right: 30px; }
     .hero-unit h1 {
-      font-size: 28px; }
+      font-size: 25px; }
     .hero-unit h2 {
       font-size: 21px; } }
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   .hero-unit {
     padding: 20px;
     height: 210px;

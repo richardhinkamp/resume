@@ -45,6 +45,8 @@ $linkColor: #333;
     background-repeat: no-repeat;
     background-position: left 50px;
     padding-left: 150px;
+    height: 130px;
+
 
     h1 {
         font-size: 55px;
@@ -103,15 +105,15 @@ a {
         padding-right: 30px;
 
         h1 {
-            font-size: 28px;
+            font-size: 25px;
         }
         h2 {
-            font-size: 21px;
+            font-size: 20px;
         }
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
     .hero-unit {
         padding: 20px;
         height: 210px;

@@ -3557,6 +3557,13 @@ a {
   a.no-underline {
     text-decoration: none; }
 
+ul.inline li {
+  padding: 0; }
+  ul.inline li:after {
+    content: " - "; }
+  ul.inline li:last-child:last-of-type:after {
+    content: ""; }
+
 .underlined {
   text-decoration: underline; }
 

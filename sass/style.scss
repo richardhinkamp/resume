@@ -7,38 +7,38 @@ $altFontFamily:         $sansFontFamily;
 
 $linkColor: #333;
 
-@import "../components/bootstrap-sass/lib/variables";
+@import "../bower_components/bootstrap-sass/lib/variables";
 
-@import "../components/bootstrap-sass/lib/mixins";
-@import "../components/bootstrap-sass/lib/reset";
+@import "../bower_components/bootstrap-sass/lib/mixins";
+@import "../bower_components/bootstrap-sass/lib/reset";
 
 // Grid system and page structure
-@import "../components/bootstrap-sass/lib/scaffolding";
-@import "../components/bootstrap-sass/lib/grid";
-@import "../components/bootstrap-sass/lib/layouts";
+@import "../bower_components/bootstrap-sass/lib/scaffolding";
+@import "../bower_components/bootstrap-sass/lib/grid";
+@import "../bower_components/bootstrap-sass/lib/layouts";
 
 // Base CSS
-@import "../components/bootstrap-sass/lib/type";
+@import "../bower_components/bootstrap-sass/lib/type";
 
 // Components: common
-@import "../components/bootstrap-sass/lib/sprites";
+@import "../bower_components/bootstrap-sass/lib/sprites";
 
 // Components: Buttons & Alerts
-@import "../components/bootstrap-sass/lib/buttons";
-@import "../components/bootstrap-sass/lib/button-groups";
-@import "../components/bootstrap-sass/lib/alerts"; // Note: alerts share common CSS with buttons and thus have styles in buttons
+@import "../bower_components/bootstrap-sass/lib/buttons";
+@import "../bower_components/bootstrap-sass/lib/button-groups";
+@import "../bower_components/bootstrap-sass/lib/alerts"; // Note: alerts share common CSS with buttons and thus have styles in buttons
 
 // Components: Nav
-@import "../components/bootstrap-sass/lib/navs";
-@import "../components/bootstrap-sass/lib/navbar";
+@import "../bower_components/bootstrap-sass/lib/navs";
+@import "../bower_components/bootstrap-sass/lib/navbar";
 
 // Components: Misc
-@import "../components/bootstrap-sass/lib/hero-unit";
+@import "../bower_components/bootstrap-sass/lib/hero-unit";
 
 // Utility classes
-@import "../components/bootstrap-sass/lib/utilities"; // Has to be last to override when necessary
+@import "../bower_components/bootstrap-sass/lib/utilities"; // Has to be last to override when necessary
 
-@import "../components/bootstrap-sass/lib/responsive";
+@import "../bower_components/bootstrap-sass/lib/responsive";
 
 .hero-unit {
     background-image: url("../img/foto-zw.png");

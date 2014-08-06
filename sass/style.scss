@@ -52,12 +52,6 @@ $linkColor: #333;
     }
 }
 
-.email {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-    text-align: left;
-}
-
 a {
     text-decoration: underline;
 
@@ -77,14 +71,35 @@ ul.inline {
             content: " - ";
         }
 
+        &.prefix:after,
         &:last-child:last-of-type:after {
             content: "";
+        }
+
+        &.prefix {
+            font-style: italic;
+        }
+    }
+}
+
+ul.inline-comma {
+    li {
+        &:after {
+            content: ", ";
+        }
+
+        &:last-child:last-of-type:after {
+          content: ".";
         }
     }
 }
 
 .underlined {
     text-decoration: underline;
+}
+
+.smaller {
+    font-size: 90%;
 }
 
 .block {

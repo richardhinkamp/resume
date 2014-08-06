@@ -3547,11 +3547,6 @@ input[type="submit"].btn {
   .hero-unit h1 {
     font-size: 55px; }
 
-.email {
-  direction: rtl;
-  unicode-bidi: bidi-override;
-  text-align: left; }
-
 a {
   text-decoration: underline; }
   a.no-underline {
@@ -3561,11 +3556,21 @@ ul.inline li {
   padding: 0; }
   ul.inline li:after {
     content: " - "; }
-  ul.inline li:last-child:last-of-type:after {
+  ul.inline li.prefix:after, ul.inline li:last-child:last-of-type:after {
     content: ""; }
+  ul.inline li.prefix {
+    font-style: italic; }
+
+ul.inline-comma li:after {
+  content: ", "; }
+ul.inline-comma li:last-child:last-of-type:after {
+  content: "."; }
 
 .underlined {
   text-decoration: underline; }
+
+.smaller {
+  font-size: 90%; }
 
 .block {
   page-break-after: auto;

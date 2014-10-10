@@ -189,6 +189,13 @@ ul.inline-comma {
             margin: 0;
         }
     }
+
+    .techniques a {
+        text-decoration: none;
+        &[href]:after {
+            content: "";
+        }
+    }
 }
 
 @page {

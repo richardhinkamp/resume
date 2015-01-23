@@ -14,38 +14,23 @@ $linkColor: #333;
 
 // Grid system and page structure
 @import "../bower_components/bootstrap-sass/lib/scaffolding";
-@import "../bower_components/bootstrap-sass/lib/grid";
 @import "../bower_components/bootstrap-sass/lib/layouts";
 
 // Base CSS
 @import "../bower_components/bootstrap-sass/lib/type";
 
-// Components: common
-@import "../bower_components/bootstrap-sass/lib/sprites";
-
-// Components: Buttons & Alerts
-@import "../bower_components/bootstrap-sass/lib/buttons";
-@import "../bower_components/bootstrap-sass/lib/button-groups";
-@import "../bower_components/bootstrap-sass/lib/alerts"; // Note: alerts share common CSS with buttons and thus have styles in buttons
-
-// Components: Nav
-@import "../bower_components/bootstrap-sass/lib/navs";
-@import "../bower_components/bootstrap-sass/lib/navbar";
-
 // Components: Misc
 @import "../bower_components/bootstrap-sass/lib/hero-unit";
-
-// Utility classes
-@import "../bower_components/bootstrap-sass/lib/utilities"; // Has to be last to override when necessary
 
 @import "../bower_components/bootstrap-sass/lib/responsive";
 
 .hero-unit {
     background-image: url("../img/foto-zw.png");
     background-repeat: no-repeat;
-    background-position: left 50px;
+    background-position: left 20px;
     padding-left: 150px;
     height: 130px;
+    padding-top: 30px;
 
     h1 {
         font-size: 55px;

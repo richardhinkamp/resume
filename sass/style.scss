@@ -92,6 +92,12 @@ ul.inline-comma {
     page-break-inside: avoid;
 }
 
+.obs {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+}
+
 @media (max-width: 979px) {
     .span4 {
         h2 {
